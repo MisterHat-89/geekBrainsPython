@@ -11,6 +11,6 @@ def my_reduce(elem_, elem):
     return elem_ * elem
 
 
-result = reduce(my_reduce, [elem for elem in range(1, 10) if elem % 2 == 0])
+result = reduce(my_reduce, [elem for elem in range(100, 1001) if elem % 2 == 0])
 print(f"Результат {result}")
 
